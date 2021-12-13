@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JS 1</title>
+
+    <script>
+        function hitung(){
+            const PHI = 3.14;
+            let jari2 = document.getElementById("bil1").value;
+            let luas = PHI * jari2 * jari2;
+            let kel = 2.0 * PHI * jari2;
+            let area_hasil = document.getElementById("hasil");
+            area_hasil.innerHTML = "\nLuas : " + luas + "\nkeliling : " + kel
+        }
+    </script>
+</head>
+<body>
+    <h3>Menghitung Luas & Keliling Lingkaran</h3>
+    jumlah jari2 Lingkaran :
+    <input type="number" value="" size="10" id="bil1"/>
+    <br><br>
+    <button onclick="hitung()">Hitung</button>
+    <br><br> Hasil :<br>
+    <br>
+    <span id="hasil">Luas & keliling :</span>
+
+
+
+
+</body>
+</html>
