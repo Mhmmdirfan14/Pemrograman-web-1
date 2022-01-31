@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.isi-login{
+    background-color: rgb(71, 218, 255);
+    margin: 200px 100px 100px 600px;
+    
+}
+
+.data-input{
+    width: 30%;
+}

@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Times;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+table {
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+table tr th {
+  border-radius: 20px;
+  background: linear-gradient(to right,  #ff2828 0%, #ffffff 100%);
+}
+
+table tr th,
+table tr td {
+    border: 2px solid black;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+}

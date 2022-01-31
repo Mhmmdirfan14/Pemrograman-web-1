@@ -1,0 +1,15 @@
+fieldset{
+    margin: 1em;
+    height: 60%;
+    width: 50%;
+    padding-bottom: 30%;
+    border-radius: 10px;
+    background: linear-gradient(to right,  #f6f6f6 0%, #f1ff77 100%);
+}
+
+.chatbox{
+    width: 48%;
+    margin-left: 1em;
+    border-radius: 20px;
+    background: linear-gradient(to right,  #f6f6f6 0%, #f1ff77 100%);
+}
